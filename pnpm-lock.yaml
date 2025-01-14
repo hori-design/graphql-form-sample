@@ -17,6 +17,9 @@ importers:
       graphql-form:
         specifier: ^0.4.3
         version: 0.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      graphql-js-tree:
+        specifier: ^3.0.2
+        version: 3.0.2(graphql@15.4.0)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -737,6 +740,11 @@ packages:
 
   graphql-js-tree@1.0.9:
     resolution: {integrity: sha512-YpOuuf3fw8C4yQkA+9ct4XvwvSmLEruQBDK7zwasE0WQVXs9lBI/RgtlwpeSqevnVxGnjjwABUvfC7VjS362UA==}
+
+  graphql-js-tree@3.0.2:
+    resolution: {integrity: sha512-I5Fa5wO6uFI8hxPbOiRcwqtM8lifv2ibAzrfzmQNR5bQB6EqvtGP9klpSOq44bVB+i5aOEAwnFZhpuHCw2Asew==}
+    peerDependencies:
+      graphql: ^16.0.0 || ^17.0.0
 
   graphql@15.4.0:
     resolution: {integrity: sha512-EB3zgGchcabbsU9cFe1j+yxdzKQKAbGUWRb13DsrsMN1yyfmmIq+2+L5MqVWcDCE4V89R5AyUOi7sMOGxdsYtA==}
@@ -1527,6 +1535,10 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   graphql-js-tree@1.0.9:
+    dependencies:
+      graphql: 15.4.0
+
+  graphql-js-tree@3.0.2(graphql@15.4.0):
     dependencies:
       graphql: 15.4.0
 
